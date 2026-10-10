@@ -65,7 +65,15 @@ function createNoteCard(note) {
   li.append(text, meta);
   return li;
 }
+const clearAllBtn = document.querySelector("#clear-all");
 
+clearAllBtn.addEventListener("click", function () {
+  if (notes.length > 0 && confirm("Delete all notes?")) {
+    notes = [];
+    saveNotes();
+    render();
+  }
+});
 function render() {
   const query = searchInput.value.trim().toLowerCase();
   const visible = notes.filter(function (note) {
