@@ -14,7 +14,7 @@ QuickNotes is a small note-taking web app built with plain HTML, CSS and JavaScr
 
 ## How to run locally
 
-1. Clone the repository: `git clone https://github.com/YOUR-USERNAME/quicknotes-app.git`
+1. Clone the repository: `https://github.com/ssteve221/quicknotes-app`
 2. Open the `quicknotes-app` folder.
 3. Double-click `index.html` to open it in your browser (or use the Live Server extension in VS Code).
 
